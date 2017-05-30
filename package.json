@@ -1,8 +1,7 @@
 {
     "name": "splittrjs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A mutli-purpose string splitter with validation",
-    "main": "dist/js/bundle.js",
     "author": {
         "name": "Alin Iacob",
         "email": "aliniacb@gmail.com"
