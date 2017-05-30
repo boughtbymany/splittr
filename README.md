@@ -2,6 +2,10 @@
 
 Useful utility to split strings whitin HTML inputs based on a given pattern
 
+##### Install:
+```
+npm i splittrjs
+```
 ##### Usage:
 
 ```javascript

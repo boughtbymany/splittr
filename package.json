@@ -1,5 +1,5 @@
 {
-    "name": "splittr",
+    "name": "splittrjs",
     "version": "0.0.1",
     "description": "A mutli-purpose string splitter with validation",
     "main": "dist/js/bundle.js",
@@ -7,7 +7,7 @@
         "name": "Alin Iacob",
         "email": "aliniacb@gmail.com"
     },
-    "main": "index.js",
+    "main": "src/js/Splittr.js",
     "scripts": {
         "start": "./node_modules/.bin/webpack-dev-server",
         "build": "rimraf dist && cross-env NODE_ENV=production webpack",
