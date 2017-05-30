@@ -35,6 +35,8 @@ export default class Splittr {
             }
         };
 
+        this.input.maxLength = this.pattern.length;
+
         return this;
     }
 
@@ -54,10 +56,12 @@ export default class Splittr {
                 this.checkSlot.push(this.is.d);
                 continue;
             }
+            if (Object.keys(this.is).indexOf(partial) === -1) {
+                return this.handleError('Invalid pattern rule')
+            }
             this.checkSlot.push(this.is[partial]);
         }
 
-        this.input.maxLength = this.pattern.length;
         return this;
     }
 

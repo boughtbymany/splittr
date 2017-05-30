@@ -10,7 +10,10 @@ block containers
     div.containers
         div.left
             p.hint Insert desired pattern (ex: nn-nn-nn)
-            input(type="text" id="pattern")
+            input(type="text" id="pattern" placeholder="nn-nn-nn")
+            p.hint Insert chosen separator (for pattern nn-nn-nn the separator is -)
+            input(type="text" id="separator" style="width: 2rem; text-align: center;" placeholder="-")
         div.right
             p.hint Test your pattern
+            p#alert
             input(type="text" id="test-pattern")
