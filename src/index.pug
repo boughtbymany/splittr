@@ -1,0 +1,16 @@
+extends templates/layout.pug
+
+block title
+    title Splittr
+
+block content
+    h1 Splittr
+
+block containers
+    div.containers
+        div.left
+            p.hint Insert desired pattern (ex: nn-nn-nn)
+            input(type="text" id="pattern")
+        div.right
+            p.hint Test your pattern
+            input(type="text" id="test-pattern")
