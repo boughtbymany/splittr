@@ -4,22 +4,6 @@ Useful utility to split strings whitin HTML inputs based on a given pattern
 
 ##### Usage:
 
-Istall dependencies
-
-```
-$ npm i
-```
-
-Run development
-```
-npm run dev
-```
-
-Build
-```
-npm run build
-```
-
 ```javascript
 new Splittr({
     'input': inputElement                 // input -> Node element
