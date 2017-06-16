@@ -1,5 +1,5 @@
 {
-  "name": "splittrjs",
+  "name": "@boughtbymany/splittrjs",
   "version": "0.0.3",
   "description": "A mutli-purpose string splitter with validation",
   "author": {
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aliniacb/Splittr.git"
+    "url": "https://github.com/boughtbymany/splittr.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aliniacb/Splittr.git/issues"
+    "url": "https://github.com/boughtbymany/Splittr.git/issues"
   },
-  "homepage": "https://github.com/aliniacb/Splittr.git",
+  "homepage": "https://github.com/boughtbymany/Splittr.git",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.24.1",
